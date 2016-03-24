@@ -1,6 +1,6 @@
 {
   "name": "gulp-connect-proxy",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "A simple proxy middleware for gulp-connect",
   "repository": {
     "type": "git",
@@ -11,7 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Hoage",
-  "license": "ISC",
+  "contributors": [
+    {
+      "name": "bsorrentino",
+      "email": "bartolomeo.sorrentino@gmail.com"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "extend": "^2.0.0"
   }

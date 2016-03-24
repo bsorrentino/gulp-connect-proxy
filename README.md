@@ -12,7 +12,7 @@ gulp.task('connect', function () {
     middleware: function (connect, opt) {
       var Proxy = require('gulp-connect-proxy');
       opt.route = '/proxy';
-      var proxy = new Proxy(opt);
+      var proxy = new Proxy.http(opt); // or ... new Proxy.https(opt);
       return [proxy];
     }
   });
